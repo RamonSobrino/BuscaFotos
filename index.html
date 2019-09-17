@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <script src="javascript/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap&key=AIzaSyBBuTWSKy10uEV62uHCjKARr9HU8bqLjqM&libraries=geometry,places"
+            async defer></script>
+
+</head>
+<body>
+
+<h1>El Juego buscafoto</h1>
+
+<div class="principal">
+<div id="map"></div>
+
+<div id="foto">
+    <div id="imagen">
+
+
+    </div>
+    <div id="botones">
+        <textarea id="area1" rows="2" cols="25"></textarea>
+        <input type="button" name="" value="Confirmar" onclick="confirmar()" id="confirmarButton" />
+        <input  type="button" onclick="okPuntuacion()" value="Ok" disabled id="okButton"/>
+    </div>
+</div>
+</div>
+<footer>
+</footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.principal{
+    height: 80%;
+    display: flex;
+    width: 95%;
+}
+
+#map {
+    height: 100%;
+    width: 78%;
+}
+
+
+#foto{
+    width: 20%;
+    margin-left: 2em;
+}
+
+#imagen img{
+    width: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
