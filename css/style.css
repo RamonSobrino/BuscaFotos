@@ -18,6 +18,12 @@
 #imagen img{
     width: 100%;
 }
+
+#botones {    
+    display: flex;
+    flex-direction: column;
+}
+
 /* Optional: Makes the sample page fill the window. */
 html, body {
     height: 100%;
